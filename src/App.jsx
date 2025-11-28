@@ -106,9 +106,9 @@ function App() {
       <Routes>
         {/* All routes under Sidebar */}
         <Route element={<SideBarLayout />}>
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="/students" element={<Students />} />
-          <Route path="/" element={<StudentForm />} />
+          <Route path="/register" element={<StudentForm />} />
         </Route>
       </Routes>
     </Router>
