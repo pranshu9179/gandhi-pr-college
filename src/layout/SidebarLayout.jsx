@@ -200,7 +200,7 @@ const SideBarLayout = ({ children }) => {
   const links = [
     {
       label: "Dashboard",
-      href: "/",
+      href: "/dashboard",
       icon: <IconBrandTabler className="h-5 w-5" />,
     },
     {
@@ -210,7 +210,7 @@ const SideBarLayout = ({ children }) => {
     },
     {
       label: "Student Form",
-      href: "/register",
+      href: "/",
       icon: <IconUserBolt className="h-5 w-5" />,
     },
     // {
